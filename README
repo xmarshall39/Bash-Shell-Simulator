@@ -1,0 +1,11 @@
+The following is an interactive bash shell simulator. Commands can be typed in the shell ordinarilly and will run in the foreground. For background processing, end the command entered in and '&'. For example:
+
+bash$ ls -l &
+
+will trigger background processing for that operation. Before use, set the environment path using the following:
+
+bash$ export MYPATH=/usr/local/bin:/usr/bin:/bin:.
+
+This can be undone using the command
+
+bash$ unset MYPATH
